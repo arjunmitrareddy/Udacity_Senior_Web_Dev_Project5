@@ -1,0 +1,46 @@
+{
+  "name": "capstone",
+  "description": "Capstone Project for Udacuty Senior Web Developer Nanodegree",
+  "main": "gulpfile.js",
+  "authors": [
+    "Arjun Mitra Reddy Donthala"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.7",
+    "jquery": "^3.1.0",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "font-awesome": "^4.6.3",
+    "lodash": "^4.13.1",
+    "angular-bootstrap": "^1.3.3",
+    "angular-touch": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "socket.io-client": "^1.4.8",
+    "bootstrapvalidator": "^0.5.3",
+    "geocomplete": "^1.7.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "css/font-awesome.css.map"
+      ]
+    }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

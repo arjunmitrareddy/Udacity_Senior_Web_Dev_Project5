@@ -1,0 +1,92 @@
+<div class="container">
+    <span class=successfulSignup" style="margin-right: 50%; color: green; font-weight: bold; font-size: 20px" ng-if="lCtrl.successMsg">{{lCtrl.successMsg}}</span>
+    <form class="well form-horizontal" id="register_form" ng-if="!lCtrl.showLog" action="" onsubmit="return false">
+        <fieldset>
+            <legend class="acctLegend" id="regLegend" ng-click="lCtrl.toggleReg()" ng-class="{active: !lCtrl.showRegSpanClass}">Sign Up! <span ng-click="lCtrl.toggleLog()" ng-class="{inactive: !lCtrl.showRegSpanClass}">Login!</span></legend>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="rname">First Name *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="rname" name="name" class="form-control" ng-model="lCtrl.userdata.name"  type="text" placeholder="Name" autofocus autocomplete="name" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="remail">E-Mail *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input id="remail" name="email" class="form-control"  type="email" ng-model="lCtrl.userdata.email" placeholder="example@example.com" autocomplete="email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="rpassword">Password *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input name="password" id="rpassword" type="password" class="form-control" ng-model="lCtrl.userdata.password" oninvalid="setCustomValidity('Password Must Contain: \n A Lowercase Alphabet \n An Uppercase alphabet \n A Number \n A Special Symbol')" placeholder="Password: " required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="geocomplete">Address *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+                        <input id="geocomplete" class="form-control" name="eloc" ng-blur="lCtrl.checkLocation()" ng-keyup="lCtrl.checkLocation()" type="text" placeholder="Type in an address" size="90" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="rdate">Date of Birth</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                        <input name="dob" id="rdate" ng-if="!lCtrl.unsafe" ng-model="lCtrl.userdata.dob" type="date" class="form-control" placeholder="Date of Birth" required>
+                        <input name="dob" id="rdate" ng-if="lCtrl.unsafe" ng-model="lCtrl.userdata.dob" type="text" class="form-control" placeholder="dd/mm/yyyy" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="rsubmit"></label>
+                <div class="col-md-4">
+                    <input type="submit" value="Register!" id="rsubmit" ng-click="lCtrl.register()" ng-disabled="!lCtrl.userdata.name || !lCtrl.userdata.password || !lCtrl.userdata.email" class="form-control btn btn-register">
+                    <span>Please Fill All Fields To Enable Register Button</span>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <form class="well form-horizontal"  id="login_form" ng-if="lCtrl.showLog" action="" onsubmit="return false">
+        <fieldset>
+            <legend class="acctLegend" id="logLegend" ng-click="lCtrl.toggleReg()" ng-class="{inactive: !lCtrl.showLogSpanClass}">Sign Up! <span ng-class="{activeBlue: !lCtrl.showLogSpanClass}" ng-click="lCtrl.toggleLog()">Login!</span></legend>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="lemail">E-Mail *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input id="lemail" name="email" class="form-control" ng-model="lCtrl.userlogindata.email" type="email" placeholder="example@example.com" autocomplete="email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="lpassword">Password *</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input name="password" id="lpassword" type="password" ng-model="lCtrl.userlogindata.password" class="form-control" placeholder="Password: " required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="lsubmit"></label>
+                <div class="col-md-4">
+                    <input type="submit" value="Login" id="lsubmit" ng-click="lCtrl.login()" ng-disabled="!lCtrl.userlogindata.password || !lCtrl.userlogindata.email" class="form-control btn btn-login">
+                    <span>Please Fill All Fields To Enable Login Button</span><br/>
+                    <span ng-if="lCtrl.authError" style="color: red">Wrong Email/Password</span>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
