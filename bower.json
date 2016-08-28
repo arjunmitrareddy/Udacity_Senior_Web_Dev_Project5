@@ -20,7 +20,9 @@
     "bootstrap": "^3.3.6",
     "socket.io-client": "^1.4.8",
     "bootstrapvalidator": "^0.5.3",
-    "geocomplete": "^1.7.0"
+    "geocomplete": "^1.7.0",
+    "classie": "^1.0.1",
+    "angular-material": "^1.1.0"
   },
   "overrides": {
     "bootstrap": {

@@ -1,22 +1,22 @@
 fieldset {
   .acctLegend {
-    padding-left: 20% ;
+    padding-left: 10% ;
     span {
       float: right;
-      margin-right: 20%;
+      margin-right: 10%;
     }
   }
 }
 .active {
-  color: #3a801c;
+  color: white;
   font-weight: bold;
 }
 .activeBlue {
-  color: #378de0;
+  color: white;
   font-weight: bold;
 }
 .inactive {
-  color: #7b7b7b !important;
+  color: white !important;
   font-weight: normal !important;
 }
 .btn-login {
@@ -52,7 +52,7 @@ fieldset {
   }
 }
 .btn.disabled, .btn[disabled] {
-  border-color: gray !important;
+  border-color: white !important;
   background-color: gray !important;
 
 }
@@ -89,4 +89,12 @@ fieldset {
   .eventsBox, #event_form {
     overflow-x: hidden !important;
   }
+}
+.disabledDescription {
+  font-size: 15px;
+}
+
+.bv-form .help-block {
+  font-size: 15px;
+  font-weight: bold;
 }

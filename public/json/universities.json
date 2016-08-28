@@ -1,0 +1,1706 @@
+[
+  {
+    "University":"Massachusetts Institute of Technology",
+    "Website":"http://www.mit.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"Stanford University",
+    "Website":"http://www.stanford.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of California- Berkeley",
+    "Website":"http://www.berkeley.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of Illinois, Urbana Champaign",
+    "Website":"http://www.uiuc.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of Michigan Ann Arbor",
+    "Website":"http://www.umich.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"Cornell University",
+    "Website":"http://www.cornell.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas at Austin",
+    "Website":"http://www.utexas.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of Maryland, College park",
+    "Website":"http://www.umd.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of California, San Diego",
+    "Website":"http://www.ucsd.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"California Institute of Technology",
+    "Website":"http://www.caltech.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of Wisconsin, Madison",
+    "Website":"http://www.wisc.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"University of California, Los Angles",
+    "Website":"http://www.ucla.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"Harvard University",
+    "Website":"http://www.harvard.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"Carnegie Mellon University",
+    "Website":"http://www.cmu.edu",
+    "Score":333,
+    "TScore":80
+  },
+  {
+    "University":"Purdue University West Lafayette",
+    "Website":"http://www.purdue.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Princeton University",
+    "Website":"http://www.princeton.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Pennsylvania State University Univ Park",
+    "Website":"http://www.psu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Georgia Institute of Technology",
+    "Website":"http://www.gatech.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Virginia Poly Tech",
+    "Website":"http://www.vt.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Texas A & M College Station",
+    "Website":"http://www.tamu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Duke University",
+    "Website":"http://www.duke.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Washington, Seattle",
+    "Website":"http://www.washington.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Minnesota",
+    "Website":"http://www.umn.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Columbia University",
+    "Website":"http://www.columbia.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Yale University",
+    "Website":"http://www.yale.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Ohio State University",
+    "Website":"http://www.osu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Pittsburgh",
+    "Website":"http://www.pitt.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Brown university (RI)",
+    "Website":"http://www.brown.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"John Hopkins University",
+    "Website":"http://www.jhu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"North Carolina State University",
+    "Website":"http://www.ncsu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Dartmouth College, NH",
+    "Website":"http://www.dartmouth.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Iowa State University",
+    "Website":"http://www.iastate.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of California, Santa Barbara",
+    "Website":"http://www.ucsb.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Case Western Reserve University",
+    "Website":"http://www.cwru.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Northwestern University (IL)",
+    "Website":"http://www.northwestern.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Arizona State University",
+    "Website":"http://www.asu.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Iowa",
+    "Website":"http://www.uiowa.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Rutgers, State Univ of NJ, New Brunswick",
+    "Website":"http://www.rutgers.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"Rice University",
+    "Website":"http://www.rice.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Rochester",
+    "Website":"http://www.rochester.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Virginia",
+    "Website":"http://www.virginia.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Pennsylvania",
+    "Website":"http://www.upenn.edu",
+    "Score":325,
+    "TScore":80
+  },
+  {
+    "University":"University of Delaware",
+    "Website":"http://www.udel.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of California, Davis",
+    "Website":"http://www.ucdavis.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Colorado Boulder",
+    "Website":"http://www.colorado.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Notre Dame",
+    "Website":"http://www.nd.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Chicago",
+    "Website":"http://www.uchicago.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Lehigh University (PA)",
+    "Website":"http://www.lehigh.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Southern California",
+    "Website":"http://www.usc.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Rensselaer Polytechnic Institute (NY)",
+    "Website":"http://www.rpi.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Cincinnati",
+    "Website":"http://www.uc.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Florida; Gainesville",
+    "Website":"http://www.ufl.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Washington University St Louis",
+    "Website":"http://www.wustl.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Vanderbilt University (TN)",
+    "Website":"http://www.vanderbilt.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of California - Irvine",
+    "Website":"http://www.uci.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Michigan State University",
+    "Website":"http://www.msu.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Massachusetts  Amherst",
+    "Website":"http://www.umass.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Kansas State University",
+    "Website":"http://www.ksu.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Alabama- Tuscaloosa",
+    "Website":"http://www.ua.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Arizona-Tucson",
+    "Website":"http://www.uarizona.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of North Carolina- Chapel Hill",
+    "Website":"http://www.unc.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Colorado School of Mines",
+    "Website":"http://www.mines.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Illinois at Chicago",
+    "Website":"http://www.uic.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of New Hampshire",
+    "Website":"http://www.unh.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of New Mexico",
+    "Website":"http://www.unm.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Boston University",
+    "Website":"http://www.bu.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Colorado State University",
+    "Website":"http://www.colostate.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Auburn University",
+    "Website":"http://www.auburn.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Buffalo",
+    "Website":"http://www.buffalo.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Akron",
+    "Website":"http://www.uakron.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Drexel University",
+    "Website":"http://www.drexel.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Syracuse University",
+    "Website":"http://www.syr.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Oregon State University",
+    "Website":"http://www.oregonstate.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"Clemson University",
+    "Website":"http://www.clemson.edu",
+    "Score":320,
+    "TScore":80
+  },
+  {
+    "University":"University of Missouri  Rolla",
+    "Website":"http://www.umr.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Nebraska Lincoln",
+    "Website":"http://www.unl.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Connecticut",
+    "Website":"http://www.uconn.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Utah",
+    "Website":"http://www.utah.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Tennessee-Knoxville",
+    "Website":"http://www.utk.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"West Virginia University",
+    "Website":"http://www.wvu.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Kansas",
+    "Website":"http://www.ku.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"SUNY- stony brook",
+    "Website":"http://www.sunnysb.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Georgia",
+    "Website":"http://www.uga.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Missouri-Columbia",
+    "Website":"http://www.mizzou.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Oklahoma State University",
+    "Website":"http://www.okstate.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Louisiana State University-Baton Rouge",
+    "Website":"http://www.lsu.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of South Carolina",
+    "Website":"http://www.sc.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Tulane University",
+    "Website":"http://www.tulane.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Indiana University - Bloomington",
+    "Website":"http://www.indiana.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Oklahoma",
+    "Website":"http://www.ou.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Miami",
+    "Website":"http://www.miami.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas  Dallas",
+    "Website":"http://www.utdallas.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Ohio University Athens",
+    "Website":"http://www.ohiou.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Houston Houston",
+    "Website":"http://www.uh.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Michigan technological University",
+    "Website":"http://www.mtu.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Maine",
+    "Website":"http://www.umaine.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Kentucky",
+    "Website":"http://www.uky.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"George Washington University",
+    "Website":"http://www.gwu.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"University of Central Florida",
+    "Website":"http://www.ucf.edu",
+    "Score":314,
+    "TScore":80
+  },
+  {
+    "University":"Northern Illinois University",
+    "Website":"http://www.niu.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Indiana University Purdue University",
+    "Website":"http://www.iupui.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Memphis",
+    "Website":"http://www.memphis.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Nevada Los Vegas",
+    "Website":"http://www.unlv.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Alabama-Huntsville",
+    "Website":"http://www.uah.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Idaho",
+    "Website":"http://www.uidaho.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Mississippi State university",
+    "Website":"http://www.msstate.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Missouri, Kansas City",
+    "Website":"http://www.umkc.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of North Carolina-Charlotte",
+    "Website":"http://www.uncc.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Oregon Graduate Institute of Science &Tech",
+    "Website":"http://www.ogi.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"George Mason University",
+    "Website":"http://www.gmu.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Indianapolis",
+    "Website":"http://www.uindy.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Nebraska Omaha",
+    "Website":"http://www.unomaha.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of South Florida- Tampa",
+    "Website":"http://www.usf.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Middle Tennessee State University",
+    "Website":"http://www.mtsu.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Polytechnic University (NY)",
+    "Website":"http://www.poly.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of New Orleans",
+    "Website":"http://www.uno.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Arkansas- Fayetteville",
+    "Website":"http://www.uark.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Tennessee Technological University",
+    "Website":"http://www.tntech.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of South Florida",
+    "Website":"http://www.usf.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"University of Louisiana-Lafayette",
+    "Website":"http://www.lousiana.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Florida Institute of Technology",
+    "Website":"http://www.fit.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Illinois Institute of Technology",
+    "Website":"http://www.iit.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Washington State University",
+    "Website":"http://www.wsu.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Georgia State University",
+    "Website":"http://www.gsu.edu",
+    "Score":308,
+    "TScore":80
+  },
+  {
+    "University":"Texas Tech University",
+    "Website":"http://www.ttu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Wayne State University",
+    "Website":"http://www.wayne.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"California State University, Sacramento",
+    "Website":"http://www.csus.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Missouri State University",
+    "Website":"http://www.missouristate.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"New Mexico State University",
+    "Website":"http://www.nmsu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"North Dakota State University",
+    "Website":"http://www.ndsu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas-Arlington",
+    "Website":"http://www.uta.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Clarkson University",
+    "Website":"http://www.clarkson.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Wright State University",
+    "Website":"http://www.wright.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Tennessee Chattanooga",
+    "Website":"http://www.utc.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Tulsa",
+    "Website":"http://www.utulsa.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Portland state university",
+    "Website":"http://www.pdx.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Vermont",
+    "Website":"http://www.uvm.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Baylor University, Texas",
+    "Website":"http://www.baylor.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Villanova University",
+    "Website":"http://www.villanova.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Tampa",
+    "Website":"http://www.utampa.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Louisiana Tech. University",
+    "Website":"http://www.latech.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"New Jersey Institute of Technology",
+    "Website":"http://www.njit.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Idaho State University",
+    "Website":"http://www.isu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Wichita State University",
+    "Website":"http://www.wichita.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Mississippi",
+    "Website":"http://www.olemiss.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Northeastern University",
+    "Website":"http://www.northeastern.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Southern Illinois University-Edwardsville",
+    "Website":"http://www.siue.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Alaska- Fairbanks",
+    "Website":"http://www.uaf.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Pace University, NY",
+    "Website":"http://www.pace.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Wright State University",
+    "Website":"http://www.wright.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Chicago State University",
+    "Website":"http://www.csu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"South Dakota State University",
+    "Website":"http://www.sdsu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"East Carolina University",
+    "Website":"http://www.ecu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of North Texas",
+    "Website":"http://www.unt.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"SUNY Institute of Technology",
+    "Website":"http://www.sunyit.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Missouri at St Louis",
+    "Website":"http://www.umsl.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Northern Iowa",
+    "Website":"http://www.uni.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Toledo",
+    "Website":"http://www.utoledo.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"University of Illinois at Springfield",
+    "Website":"http://www.uis.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Old Dominion University, Virginia",
+    "Website":"http://www.odu.edu",
+    "Score":300,
+    "TScore":80
+  },
+  {
+    "University":"Northwest Missouri State University",
+    "Website":"http://www.nwmissouri.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Lamar University",
+    "Website":"http://www.lamar.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Illinois State University, Normal",
+    "Website":"http://www.ilstu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Louisville",
+    "Website":"http://www.louisville.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Texas A & M University, Commerce",
+    "Website":"tamu-commerce.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Colorado Technical University, Colorado Springs",
+    "Website":"http://www.coloradotech.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Boise State university, Idaho",
+    "Website":"http://www.boisestate.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Montana State University, Bozeman",
+    "Website":"http://www.montana.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"South Dakota School of Mines & technology",
+    "Website":"http://www.sdsmt.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"North Carolina Agricultural & Tech State University",
+    "Website":"http://www.ncat.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Southern Illinois University, Carbondale",
+    "Website":"http://www.siuc.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Florida International university",
+    "Website":"http://www.fiu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"North Dakota State University",
+    "Website":"http://www.nodak.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Western Kentucky University",
+    "Website":"http://www.wku.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Bradley University",
+    "Website":"http://www.bradley.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Cleveland State University",
+    "Website":"http://www.csuohio.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Bridgeport CT",
+    "Website":"http://www.bridgeport.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Dayton Ohio",
+    "Website":"http://www.udayton.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Texas A & M university, Kingsville",
+    "Website":"http://www.tamuk.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of West Florida, Pensacola",
+    "Website":"http://www.uwf.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Eastern Michigan University",
+    "Website":"http://www.emich.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Minnesota State University, Mankato",
+    "Website":"http://www.mnsu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Suffolk University, MA",
+    "Website":"http://www.suffolk.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of North Carolina, Greensboro",
+    "Website":"http://www.uncg.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"New Mexico Institute of Mining &Tech.",
+    "Website":"http://www.nmt.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Central Arkansas",
+    "Website":"http://www.uca.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Southeastern University, DC",
+    "Website":"http://www.seu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Hawaii",
+    "Website":"http://www.hawai.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas, Tyler",
+    "Website":"http://www.uttyler.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Eastern Washington University",
+    "Website":"http://www.ewu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Southern Oregon University, Ashland",
+    "Website":"http://www.sou.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas at San Antonio",
+    "Website":"http://www.utsa.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"State University of West Georgia",
+    "Website":"http://www.westga.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Ball State University",
+    "Website":"http://www.bsu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas El Paso",
+    "Website":"http://www.utep.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Columbus State University",
+    "Website":"http://www.colstate.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Arkansas State University",
+    "Website":"http://www.astate.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"University of Denver",
+    "Website":"http://www.du.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"North Dakota State University",
+    "Website":"http://www.ndsu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"New York Institute of Technology",
+    "Website":"http://www.nyit.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"California State University, Chico",
+    "Website":"http://www.csuchico.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Dakota State University",
+    "Website":"http://www.dsu.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"St Cloud State University",
+    "Website":"http://www.stcloudstate.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Marquette University",
+    "Website":"http://www.marquette.edu",
+    "Score":290,
+    "TScore":80
+  },
+  {
+    "University":"Temple University, PA",
+    "Website":"http://www.temple.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"City College of the City of New York",
+    "Website":"http://www.cuny.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Northeastern Illinois University",
+    "Website":"http://www.neiu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Detroit Mercy",
+    "Website":"http://www.udmercy.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Arkansas Little Rock",
+    "Website":"http://www.ualr.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"California State University, Fresno",
+    "Website":"http://www.csufresno.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Alabama A & M University",
+    "Website":"http://www.aamu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Widener University, Pennsylvania",
+    "Website":"http://www.widener.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Alcorn State University",
+    "Website":"http://www.alcorn.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Gannon University",
+    "Website":"http://www.gannon.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Findlay-Ohio",
+    "Website":"http://www.findlay.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"San Diego State University, California",
+    "Website":"http://www.sdsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Ball State University",
+    "Website":"http://www.bsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Northwestern Polytechnic University",
+    "Website":"http://www.npu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Jacksonville State University",
+    "Website":"http://www.jsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Saint Joseph University",
+    "Website":"http://www.sju.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Chapman University",
+    "Website":"http://www.chapman.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Kent State University",
+    "Website":"http://www.kent.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Ferris State University",
+    "Website":"http://www.ferris.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of New Haven, CT",
+    "Website":"http://www.newhaven.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Farleigh Dickinson University, New Jersey",
+    "Website":"http://www.fdu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"State University of New York, Albany",
+    "Website":"http://www.albany.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"College of William & Mary",
+    "Website":"http://www.wm.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"East Tennessee State University",
+    "Website":"http://www.etsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Southwest Texas State University, San Marcos",
+    "Website":"http://www.swt.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"DePaul University",
+    "Website":"http://www.depaul.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Mc Neese State University",
+    "Website":"http://www.mcneese.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Oakland University",
+    "Website":"http://www.oakland.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Sam Houston State University",
+    "Website":"http://www.shsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"San Jose state University",
+    "Website":"http://www.sjsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"William Patterson University",
+    "Website":"http://www.wpunj.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Western Carolina University",
+    "Website":"http://www.wcu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Central Oklahoma",
+    "Website":"http://www.ucok.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Widener University",
+    "Website":"http://www.widener.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of St Thomas, MN",
+    "Website":"http://www.stthomas.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Western Illinois university",
+    "Website":"http://www.wiu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Bowling Green State University, Ohio",
+    "Website":"http://www.bgsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Delaware State University",
+    "Website":"http://www.desu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"State University of New York, New Paltz",
+    "Website":"http://www.newpaltz.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Central Michigan University",
+    "Website":"http://www.cmich.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Southern Mississippi",
+    "Website":"http://www.usm.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Indian University South Bend",
+    "Website":"http://www.iusb.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Saint Marys University San Antonio",
+    "Website":"http://www.stmarytx.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Shippensburg University, PA",
+    "Website":"http://www.ship.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"East Tennessee State University",
+    "Website":"http://www.etsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"University of Texas, Pan America",
+    "Website":"http://www.panam.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Jackson State University",
+    "Website":"http://www.jsums.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Oklahoma City University",
+    "Website":"http://www.ocu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Frostburg State University",
+    "Website":"http://www.frostburg.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"La Salle University, PA",
+    "Website":"http://www.lasalle.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Alfred University",
+    "Website":"http://www.alfred.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Monmouth University-New Jersey",
+    "Website":"http://www.monmouth.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Southern New Hampshire University",
+    "Website":"http://www.snhu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Roosevelt University Chicago",
+    "Website":"http://www.roosevelt.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Drake university",
+    "Website":"http://www.drake.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Shippensburg University of Pennsylvania",
+    "Website":"http://www.ship.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Duquesne University",
+    "Website":"http://www.duq.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Georgia College & State University",
+    "Website":"http://www.gcsu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Georgia Southern University",
+    "Website":"http://www.georgiasouthern.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Kennesaw State University",
+    "Website":"http://www.kennesaw.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Long Island University",
+    "Website":"http://www.liu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Loyola University Chicago",
+    "Website":"http://www.luc.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Northern Kentucky University",
+    "Website":"http://www.nku.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Lawrence Tech University",
+    "Website":"http://www.ltu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Clark Atlanta University",
+    "Website":"http://www.cau.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"California State University, Northridge",
+    "Website":"http://www.csun.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Catholic University of America, Washington",
+    "Website":"http://www.cua.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Ohio Dominican College (University), Ohio",
+    "Website":"http://www.ohiodominican.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Ferris State University, Michigan",
+    "Website":"http://www.ferris.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Fitchburg State University, MA",
+    "Website":"http://www.fsc.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Hawaii Pacific University, Hawaii",
+    "Website":"http://www.hpu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Northwood University, Michigan",
+    "Website":"http://www.northwood.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Johnson and Wales University, RI",
+    "Website":"http://www.jwu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Governors State University, Parkway IL",
+    "Website":"http://www.govst.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Troy State University, Alabama",
+    "Website":"http://www.troyst.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Stevens Institute of Technology",
+    "Website":"http://www.stevens-tech.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Florida Atlantic University, Boca Raton",
+    "Website":"http://www.fau.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Golden Gate University",
+    "Website":"http://www.ggu.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Howard University",
+    "Website":"http://www.howard.edu",
+    "Score":280,
+    "TScore":80
+  },
+  {
+    "University":"Dominican University",
+    "Website":"http://www.dom.edu",
+    "Score":280,
+    "TScore":80
+  }
+]

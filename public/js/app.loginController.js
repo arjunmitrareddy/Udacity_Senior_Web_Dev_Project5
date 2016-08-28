@@ -11,7 +11,6 @@
     function loginController($location, $rootScope, $scope) {
 
         var lCtrl = this;
-
         lCtrl.isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
         lCtrl.isFirefox = typeof InstallTrigger !== 'undefined';
         lCtrl.isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
@@ -29,15 +28,9 @@
                 lCtrl.unsafe = false;
             }
         })();
-
         $scope.$on('$routeChangeSuccess', function() {
             var path = $location.path();
             if (path.indexOf('dashboard') != -1) {
-                geolocator();
-                $(function() {
-                    $("#ename").focus();
-                });
-                lCtrl.addFeedbackForEvent();
             }
             else {
                 $(function() {
@@ -160,176 +153,6 @@
             });
         };
 
-        lCtrl.addFeedbackForEvent = function() {
-            $(function() {
-                $('#event_form').bootstrapValidator({
-                    feedbackIcons: {
-                        valid: 'glyphicon glyphicon-ok',
-                        invalid: 'glyphicon glyphicon-remove',
-                        validating: 'glyphicon glyphicon-refresh'
-                    },
-                    fields: {
-                        ename: {
-                            validators: {
-                                stringLength: {
-                                    min: 2
-                                },
-                                notEmpty: {
-                                    message: 'Please Enter The Event Name'
-                                }
-                            }
-                        },
-                        etype: {
-                            validators: {
-                                stringLength: {
-                                    min: 2
-                                },
-                                notEmpty: {
-                                    message: 'Please Enter The Type Of Event'
-                                }
-                            }
-                        },
-                        hname: {
-                            validators: {
-                                stringLength: {
-                                    min: 2
-                                },
-                                notEmpty: {
-                                    message: 'Please Enter The Host Name'
-                                }
-                            }
-                        },
-                        stdate: {
-                            validators: {
-                                regexp: lCtrl.unsafe ? {
-                                    regexp: /^(((0[1-9]|[12]\d|3[01])\/(0[13578]|1[02])\/((19|[2-9]\d)\d{2}))|((0[1-9]|[12]\d|30)\/(0[13456789]|1[012])\/((19|[2-9]\d)\d{2}))|((0[1-9]|1\d|2[0-8])\/02\/((19|[2-9]\d)\d{2}))|(29\/02\/((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))([ ]){1}([0-2][0-3]:[0-5][0-9])$/g,
-                                    message: "Value Should be in dd/mm/yyyy HH:MM format"
-                                } : null
-                            }
-                        },
-                        eddate: {
-                            validators: {
-                                callback: {
-                                    callback: function() {
-                                        var start = $('#stdate').val();
-                                        var end = $('#eddate').val();
-                                        var smYr = null;
-                                        var smMn = null;
-                                        var smDay = null;
-                                        var smHr = null;
-                                        if (lCtrl.unsafe) {
-                                            if (end.substring(6, 10) < start.substring(6, 10)) {
-                                                return false;
-                                            }
-                                            if (end.substring(6, 10) == start.substring(6, 10)) {
-                                                smYr = true;
-                                            }
-                                            if (smYr && end.substring(3, 5) < start.substring(3, 5)) {
-                                                return false;
-                                            }
-                                            if (smYr && end.substring(3, 5) == start.substring(3, 5)) {
-                                                smMn = true;
-                                            }
-                                            if (smMn && smYr && end.substring(0, 2) < start.substring(0, 2)) {
-                                                return false;
-                                            }
-                                            if (smMn && smYr && end.substring(0, 2) == start.substring(0, 2)) {
-                                                smDay = true;
-                                            }
-                                            if (smDay && smMn && smYr && end.substring(11, 13) < start.substring(11, 13)) {
-                                                return false;
-                                            }
-                                            if (smDay && smMn && smYr && end.substring(11, 13) == start.substring(11, 13)) {
-                                                smHr = true;
-                                            }
-                                            if (smHr && smDay && smMn && smYr && end.substring(14, 16) < start.substring(14, 16)) {
-                                                return false;
-                                            }
-                                        }
-                                        else {
-                                            var stDate = new Date(start.toString());
-                                            var endDate = new Date(end.toString());
-                                            var startObj = {
-                                                day: stDate.getDate(),
-                                                month: (stDate.getMonth()+1),
-                                                year: stDate.getFullYear(),
-                                                hour: stDate.getHours(),
-                                                minutes: stDate.getMinutes()
-                                            };
-
-                                            var endObj = {
-                                                day: endDate.getDate(),
-                                                month: (endDate.getMonth()+1),
-                                                year: endDate.getFullYear(),
-                                                hours: endDate.getHours(),
-                                                minutes: endDate.getMinutes()
-                                            };
-
-                                            if (endObj.year < startObj.year) {
-                                                return false;
-                                            }
-                                            if (endObj.year == startObj.year) {
-                                                smYr = true;
-                                            }
-                                            if (smYr && endObj.month < startObj.month) {
-                                                return false;
-                                            }
-                                            if (smYr && endObj.month == startObj.month) {
-                                                smMn = true;
-                                            }
-                                            if (smMn && smYr && endObj.day < startObj.day) {
-                                                return false;
-                                            }
-                                            if (smMn && smYr && endObj.day == startObj.day) {
-                                                smDay = true;
-                                            }
-                                            if (smDay && smMn && smYr && endObj.hours < startObj.hours) {
-                                                return false;
-                                            }
-                                            if (smDay && smMn && smYr && endObj.hours == startObj.hours) {
-                                                smHr = true;
-                                            }
-                                            if (smHr && smDay && smMn && smYr && endObj.minutes < startObj.minutes) {
-                                                return false;
-                                            }
-                                        }
-                                        if (start == end){
-                                            return false;
-                                        }
-                                        return true;
-                                    },
-                                    message: "End Date & Date Should Be Greater Than Start Date & Time"
-                                },
-                                regexp: lCtrl.unsafe ? {
-                                    regexp: /^(((0[1-9]|[12]\d|3[01])\/(0[13578]|1[02])\/((19|[2-9]\d)\d{2}))|((0[1-9]|[12]\d|30)\/(0[13456789]|1[012])\/((19|[2-9]\d)\d{2}))|((0[1-9]|1\d|2[0-8])\/02\/((19|[2-9]\d)\d{2}))|(29\/02\/((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))([ ]){1}([0-2][0-3]:[0-5][0-9])$/g,
-                                    message: "Date Should be in dd/mm/yyyy HH:MM format"
-                                } : true
-                            }
-                        },
-                        eloc: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Please Enter The Event Location'
-                                }
-                            }
-                        }
-                    }
-                }).on('error.field.bv', function(e, data) {
-                    if ($('#ename').val() == '' || $('#etype').val() == '' || $('#hname').val() == '' || $('#estdate').val() == '' || $('#stdate').val() == '' || $('#eddate').val() == '' || $('#geocomplete').val() == '') {
-                        $('#esubmit').prop("disabled",true);
-                    }
-                    data.bv.disableSubmitButtons(true);
-                }).on('status.field.bv', function(e, data) {
-                    if ($('#ename').val() == '' || $('#etype').val() == '' || $('#hname').val() == '' || $('#estdate').val() == '' || $('#stdate').val() == '' || $('#eddate').val() == '' || $('#geocomplete').val() == '') {
-                        $('#esubmit').prop("disabled",true);
-                    }
-                    else {
-                        data.bv.disableSubmitButtons(false);
-                    }
-                })
-            });
-        };
-
         $(document).ready(function() {
             lCtrl.addFeedbackForRegister();
             lCtrl.addFeedbackForLogin();
@@ -375,6 +198,13 @@
                 $("#lemail").focus();
             })
         };
+
+        if ($rootScope.logBtn) {
+            lCtrl.toggleLog();
+        }
+        if ($rootScope.signBtn) {
+            lCtrl.toggleReg();
+        }
 
         function adjustView() {
             $('.navstate').each(function(index, a) {
@@ -447,23 +277,53 @@
             $location.path("/");
         };
 
-
         lCtrl.checkLocation = function() {
             return $("#geocomplete").val() == '';
         };
-
-        function process(obj) {
-            obj.start = obj.start.toString();
-            obj.end = obj.end.toString();
-            obj.location = $("#geocomplete").val();
-        }
-
         geolocator();
         function geolocator() {
             $(function(){
                 $("#geocomplete").geocomplete()
             });
         }
+
+        var geocoder;
+        var map;
+        lCtrl.geoAddress = null;
+        lCtrl.codeAddress = function() {
+            geocoder = new google.maps.Geocoder();
+            var lat='';
+            var lng='';
+            var address = $("#geocomplete").val();
+            geocoder.geocode( { 'address': address}, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    lat = results[0].geometry.location.lat(); //getting the lat
+                    lng = results[0].geometry.location.lng(); //getting the lng
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                } else {
+                    alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+            var latlng = new google.maps.LatLng(lat, lng);
+            var myOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            map = new google.maps.Map($("#map_canvas")[0], myOptions);
+
+            google.maps.event.addDomListener(window, "resize", function() {
+                var center = map.getCenter();
+                google.maps.event.trigger(map, "resize");
+                map.setCenter(center);
+            });
+        }
+
+
     }
 
 })();

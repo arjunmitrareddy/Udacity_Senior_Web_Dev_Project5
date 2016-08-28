@@ -1,1 +1,7 @@
-Dashboard
+<div id="search" ng-if="!dCtrl.showingRes">
+    <button type="button" class="close" ng-click="dCtrl.closeSearchBox()">×</button>
+    <form>
+        <input type="search" id="searchBox" autocomplete="off" aria-label="Enter GRE Score Betweeen 280 and 340" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="Enter GRE Score (Between 280-340)" ng-model="$root.score"/>
+        <button type="submit" aria-label="Search Button" class="btn btn-primary" ng-disabled="$root.score > 340 || $root.score < 280" ng-click="dCtrl.showColleges()">Search</button>
+    </form>
+</div>

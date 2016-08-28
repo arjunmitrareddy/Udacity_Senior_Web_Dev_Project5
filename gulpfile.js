@@ -21,11 +21,12 @@ gulp.task('clean', () => {
 
 gulp.task('css', () => {
     return gulp.src('public/scss/*.scss')
-        .pipe(plugins.sass.sync().on('error', plugins.sass.logError))
-        .pipe(plugins.sass({ outputStyle: 'compressed' }))
+        .pipe(plugins.sass())
+        /*.pipe(plugins.sass.sync().on('error', plugins.sass.logError))
+
         .pipe(plugins.autoprefixer({
             browsers: ['last 5 versions']
-        }))
+        }))*/
         .pipe(gulp.dest('public/css'));
 });
 
@@ -56,7 +57,9 @@ gulp.task('copy', () => {
             'bower_components/font-awesome/fonts/*'
         ]).pipe(gulp.dest('build/public/fonts')),
         gulp.src('public/templates/*.html').pipe(gulp.dest('build/public/templates')),
+        gulp.src('public/manifest.json').pipe(gulp.dest('build/public')),
         gulp.src('public/json/*.json').pipe(gulp.dest('build/public/json')))
+
 });
 
 function createBundle(src) {
@@ -136,9 +139,9 @@ gulp.task('babelify-server', () => {
 
 gulp.task('cache-templates', () => {
     var templateCacheOptions = {
-        file: 'templatesCache.js',
+        file: 'app.templatesCache.js',
         options: {
-            module: 'restrevirew',
+            module: 'amr',
             standAlone: false,
             root: '/templates'
         }
@@ -150,7 +153,7 @@ gulp.task('cache-templates', () => {
             templateCacheOptions.file,
             templateCacheOptions.options
         ))
-        .pipe(gulp.dest('build/cache'))
+        .pipe(gulp.dest('public/js'))
 });
 
 gulp.task('watch', () => {
@@ -185,5 +188,5 @@ gulp.task('heroku', (callback) => {
 });
 
 gulp.task('serve', (callback) => {
-    runSequence('clean', 'css', 'wire-dep', 'copy', 'babelify-client', 'client-bundler', 'cache-templates', 'babelify-server','watch', 'server', callback);
+    runSequence('clean', 'cache-templates', 'css', 'wire-dep', 'copy', 'babelify-client', 'client-bundler', 'babelify-server','watch', 'server', callback);
 });

@@ -1,1 +1,55 @@
 @import "login";
+@import "welcome";
+@import "dashboard";
+
+#map * {
+  overflow:visible;
+}
+#map_canvas {
+  height: 500px;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+.navbar-nav {
+  float: right;
+  font-size: 20px;
+}
+.well {
+  background-color: #484848 !important;
+}
+label {
+  font-size: 15px;
+}
+.carddemoBasicUsage .card-media {
+  background-color: #999999; }
+
+.md-padding {
+  background: #333;
+}
+.Hard {
+  color: #98011a !important;
+  font-weight: bold;
+}
+.Moderate {
+  color: #945103 !important;
+  font-weight: bold;
+}
+.Safe {
+  color: #166306 !important;
+  font-weight: bold;
+}
+.card-content {
+  font-size: 12px;
+  font-weight: bold;
+}
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
+*/

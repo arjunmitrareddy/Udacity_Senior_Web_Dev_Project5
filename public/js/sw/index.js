@@ -1,7 +1,7 @@
 /**
  * Created by arjunMitraReddy on 8/6/2016.
  */
-var staticCache = 'transport-info-v2';
+var staticCache = 'transport-info-v1';
 var imagesCache = 'transport-imgs';
 
 var allCaches = [
@@ -16,10 +16,16 @@ self.addEventListener('install', (event) => {
                 caches.open(staticCache).then((cache) => {
                     return cache.addAll([
                         '/',
-                        'js/lib.js',
-                        'js/main.js',
-                        'css/lib.css',
-                        'css/style.css'
+                        'index.html',
+                        '/login',
+                        '/dashboard',
+                        '/univ',
+                        '/js/lib.js',
+                        '/js/app.js',
+                        '/styles/lib.css',
+                        '/styles/style.css',
+                        '/manifest.json',
+                        '/json/universities.json'
                     ])
                 }),
                 caches.open(imagesCache).then((cache) => {
@@ -31,6 +37,18 @@ self.addEventListener('install', (event) => {
                         'fonts/fontawesome-webfont.ttf?v=4.6.3',
                         'fonts/fontawesome-webfont.woff?v=4.6.3',
                         'fonts/fontawesome-webfont.woff2?v=4.6.3',
+                        'imgs/48.png',
+                        'imgs/96.png',
+                        'imgs/128.png',
+                        'imgs/144.png',
+                        'imgs/192.png',
+                        'imgs/256.png',
+                        'imgs/384.png',
+                        'imgs/512.png',
+                        'imgs/logo.svg',
+                        'imgs/logo2.png',
+                        'imgs/preloader.gif',
+                        'imgs/univ.png',
                     ])
                 })
             ]
@@ -63,6 +81,14 @@ self.addEventListener('fetch', (event) => {
             event.respondWith(serveAssets(event.request, imagesCache));
             return;
         }
+        if (requestUrl.pathname.startsWith('/js/')) {
+            event.respondWith(serveAssets(event.request, staticCache));
+            return;
+        }
+        if (requestUrl.pathname.startsWith('/css/')) {
+            event.respondWith(serveAssets(event.request, staticCache));
+            return;
+        }
         event.respondWith(
             caches.match(event.request).then(function(response) {
                 return response || fetch(event.request);
@@ -73,7 +99,6 @@ self.addEventListener('fetch', (event) => {
 
 self.addEventListener('message', (event) => {
     if (event.data.skipWait) {
-        console.log(event.data);
         self.skipWaiting();
     }
 });

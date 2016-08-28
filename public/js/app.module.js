@@ -44,6 +44,8 @@ loadScripts(polyfillsNeeded);
             'ui.router',
             'ngAnimate',
             'ngTouch',
-            'ui.bootstrap'
+            'ui.bootstrap',
+            'ngMaterial',
+            'ngMessages'
         ]);
 })();

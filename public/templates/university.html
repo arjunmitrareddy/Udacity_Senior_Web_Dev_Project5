@@ -1,0 +1,30 @@
+<md-card style="height: 300px; background: #dbdbdb; width: 350px;">
+    <md-card-header>
+        <md-card-avatar>
+            <img src="imgs/logo2.png" alt="University Result Card">
+        </md-card-avatar>
+        <md-card-header-text>
+            <span class="md-title">Chances:</span>
+            <span class="md-subhead {{chance}}">{{chance}}</span>
+        </md-card-header-text>
+    </md-card-header>
+    <img ng-src="{{university.image}}" class="md-card-image" alt="University Image Unavailable">
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">{{university.University}}</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content class="card-content">
+        <md-card-actions layout="row" layout-align="start center">
+            <md-button class="md-raised" ng-click="openWebsite(university.Website)">Website</md-button>
+            <md-button class="md-raised" ng-click="getDirections(university.University)">Get Directions!</md-button>
+        </md-card-actions>
+        <p>
+            GRE Score - {{university.Score}}
+        </p>
+        <p>
+            TOEFL Score - {{university.TScore}}
+        </p>
+    </md-card-content>
+</md-card>
+
