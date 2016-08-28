@@ -601,6 +601,9 @@ body #cdawrap:hover #cda-remove {
 .card-link {
   color: #00578c !important; }
 
+html {
+  background: #333; }
+
 #map * {
   overflow: visible; }
 
