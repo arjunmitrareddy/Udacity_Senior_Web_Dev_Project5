@@ -115,10 +115,6 @@ gulp.task('client-bundler', () => {
     );
 });
 
-gulp.task('post-bundler', () => {
-
-});
-
 
 gulp.task('babelify-client', () => {
     var assets = plugins.useref({searchPath: './'});
@@ -183,7 +179,7 @@ gulp.task('refresh', (callback) => {
 });
 
 gulp.task('heroku', (callback) => {
-    runSequence('clean', 'cache-templates', 'css', 'wire-dep', 'copy', 'babelify-client', 'cache-templates', 'babelify-server', callback);
+    runSequence('clean', 'cache-templates', 'css', 'wire-dep', 'copy', 'babelify-client', 'client-bundler', 'babelify-server', callback);
 
 });
 
