@@ -267,7 +267,7 @@
             }
         };
 
-        lCtrl.logout = function() {
+        $rootScope.logout = function() {
             localStorage.removeItem('name');
             localStorage.removeItem('email');
             localStorage.removeItem('password');

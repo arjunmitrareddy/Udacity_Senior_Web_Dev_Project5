@@ -45,7 +45,9 @@
             </div>
             <div class="collapse navbar-collapse" id="menu-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="navstate" ui-sref="login"><span class="glyphicon glyphicon-user"></span> Login/Signup</a></li>
+                    <li><a class="navstate" ui-sref="login" ng-if="!user"><span class="glyphicon glyphicon-user"></span> Login/Signup</a></li>
+                    <li><a class="navstate" ui-sref="login" ng-if="user"><span class="glyphicon glyphicon-user" style="margin-right: 10px"></span>{{user.name}}</a></li>
+                    <li><a class="navstate" ui-sref="login" ng-click="logout()" ng-if="user"><span class="glyphicon glyphicon-log-out" style="margin-right: 10px"></span>Logout</a></li>
                 </ul>
             </div>
         </div>
