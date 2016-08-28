@@ -1,6 +1,6 @@
 {
-  "name" : "Capstone",
-  "short_name" : "Capstone",
+  "name" : "University Search",
+  "short_name" : "University Search",
   "start_url" : "/",
   "background_color": "#000000",
   "theme_color": "#000000",
