@@ -30,6 +30,11 @@
                             '_system'
                         );
                     }
+                }, function(error){
+                    alert(error.message);
+                }, {
+                    enableHighAccuracy: true
+                    ,timeout : 5000
                 });
             }
         };
