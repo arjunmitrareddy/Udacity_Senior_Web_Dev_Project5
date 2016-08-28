@@ -570,7 +570,7 @@ body #cdawrap:hover #cda-remove {
   width: 100%;
   color: white;
   background: transparent;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
   border: 0;
@@ -589,7 +589,7 @@ body #cdawrap:hover #cda-remove {
 
 #search .close {
   position: fixed;
-  top: 15%;
+  top: 22%;
   right: 4%;
   color: #fff;
   background-color: #428bca;

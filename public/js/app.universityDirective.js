@@ -30,7 +30,7 @@
                             '_blank'
                         );
                     }
-                }, {enableHighAccuracy: true});
+                }, function() {}, {enableHighAccuracy: true});
             }
         };
 
