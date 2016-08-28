@@ -2,8 +2,8 @@
   "name" : "Capstone",
   "short_name" : "Capstone",
   "start_url" : "/",
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "icons" : [
     {
       "src" : "imgs/48.png",
