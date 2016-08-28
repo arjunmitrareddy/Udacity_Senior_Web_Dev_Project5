@@ -2,6 +2,9 @@
 @import "welcome";
 @import "dashboard";
 
+html {
+	background: #333;
+}
 #map * {
   overflow:visible;
 }
