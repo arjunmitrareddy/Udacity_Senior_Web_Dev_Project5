@@ -7,7 +7,7 @@
     "dep": "npm install && bower install",
     "start": "gulp server",
     "serve": "gulp serve",
-    "postinstall": "bower install"
+    "postinstall": "bower install && gulp heroku"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
