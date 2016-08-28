@@ -2,6 +2,8 @@
 A University Search application to help international students planning to pursue Master's in USA, pick the right colleges based on their test scores.
 Website features all technologies learnt throught the Udacity Nanodegree
 
+## [DEMO] (https://university-search.herokuapp.com)
+
 Requirements:
 - App is equally functional on mobile and desktop, using responsive design to ensure its displayed in a useable state.
 - All form inputs have appropriate types, labels, placeholders, and immediately validated.
