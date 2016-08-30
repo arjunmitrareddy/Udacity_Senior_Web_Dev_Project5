@@ -16,7 +16,7 @@ Requirements:
 
 ##Technologies Used:
 - [ECMAScript 6](http://es6-features.org/)
-- [AngularJS v1.5.7](https://angularjs.org/), [EmberJS] (http://emberjs.com/)
+- [AngularJS v1.5.7](https://angularjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [Gulp](http://gulpjs.com/)
