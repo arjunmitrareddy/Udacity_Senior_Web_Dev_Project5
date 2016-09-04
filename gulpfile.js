@@ -22,11 +22,10 @@ gulp.task('clean', () => {
 gulp.task('css', () => {
     return gulp.src('public/scss/*.scss')
         .pipe(plugins.sass())
-        /*.pipe(plugins.sass.sync().on('error', plugins.sass.logError))
-
+        .pipe(plugins.sass.sync().on('error', plugins.sass.logError))
         .pipe(plugins.autoprefixer({
             browsers: ['last 5 versions']
-        }))*/
+        }))
         .pipe(gulp.dest('public/css'));
 });
 
@@ -89,15 +88,11 @@ function bundle(b, outputPath) {
     var outputDir = splitPath.slice(0, -1).join('/');
 
     return b.bundle()
-    // log errors if they happen
         .on('error', plugins.util.log.bind(plugins.util, 'Browserify Error'))
         .pipe(source(outputFile))
-        // optional, remove if you don't need to buffer file contents
         .pipe(buffer())
-        // optional, remove if you dont want sourcemaps
-        .pipe(plugins.sourcemaps.init({loadMaps: true})) // loads map from browserify file
-        // Add transformation tasks to the pipeline here.
-        .pipe(plugins.sourcemaps.write('./')) // writes .map file
+        .pipe(plugins.sourcemaps.init({loadMaps: true}))
+        .pipe(plugins.sourcemaps.write('./'))
         .pipe(gulp.dest('build/public/' + outputDir));
 }
 
@@ -121,7 +116,7 @@ gulp.task('babelify-client', () => {
     var cssFilter = plugins.filter('**/*.css', {restore: true});
     var jsFilter = plugins.filter('**/*.js', {restore: true});
     gulp.src('public/index.html').pipe(plugins.plumber()).pipe(assets).pipe(cssFilter).pipe(plugins.csso({comments: false})).pipe(plugins.sourcemaps.init()).pipe(plugins.sourcemaps.write('./')).pipe(cssFilter.restore)
-        .pipe(jsFilter)/*.pipe(plugins.babel({stage: 1}))*//*.pipe(plugins.sourcemaps.init()).pipe(plugins.uglify()).pipe(plugins.sourcemaps.write('./'))*/.pipe(jsFilter.restore)
+        .pipe(jsFilter).pipe(plugins.uglify()).pipe(jsFilter.restore)
         .pipe(gulp.dest('build/public'))
 });
 

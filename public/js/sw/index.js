@@ -9,11 +9,11 @@ var allCaches = [
     imagesCache
 ];
 
-self.addEventListener('install', (event) => {
+self.addEventListener('install', function(event) {
     event.waitUntil(
         Promise.all(
             [
-                caches.open(staticCache).then((cache) => {
+                caches.open(staticCache).then(function(cache) {
                     return cache.addAll([
                         '/',
                         'index.html',
@@ -28,7 +28,7 @@ self.addEventListener('install', (event) => {
                         '/json/universities.json'
                     ])
                 }),
-                caches.open(imagesCache).then((cache) => {
+                caches.open(imagesCache).then(function(cache) {
                     return cache.addAll([
                         'imgs/favicon.png',
                         'fonts/FontAwesome.otf',
@@ -56,13 +56,13 @@ self.addEventListener('install', (event) => {
     )
 });
 
-self.addEventListener('activate', (event) => {
+self.addEventListener('activate', function(event) {
     event.waitUntil(
-        caches.keys().then((cacheNames) => {
+        caches.keys().then(function(cacheNames) {
             return Promise.all(
-                cacheNames.filter((cacheName) => {
+                cacheNames.filter(function(cacheName) {
                     return !allCaches.includes(cacheName);
-                }).map((cacheName) => {
+                }).map(function(cacheName) {
                     return caches.delete(cacheName);
                 })
             );
@@ -70,7 +70,7 @@ self.addEventListener('activate', (event) => {
     );
 });
 
-self.addEventListener('fetch', (event) => {
+self.addEventListener('fetch', function(event) {
     var requestUrl = new URL(event.request.url);
     if (requestUrl.origin === location.origin) {
         if (requestUrl.pathname.startsWith('/imgs/')) {
@@ -97,17 +97,17 @@ self.addEventListener('fetch', (event) => {
     }
 });
 
-self.addEventListener('message', (event) => {
+self.addEventListener('message', function(event) {
     if (event.data.skipWait) {
         self.skipWaiting();
     }
 });
 
 function serveAssets(request, cacheName) {
-    return caches.open(cacheName).then((cache) => {
-        return cache.match(request).then((response) => {
+    return caches.open(cacheName).then(function(cache) {
+        return cache.match(request).then(function(response) {
             if (response) return response;
-            return fetch(request).then((response) => {
+            return fetch(request).then(function(response) {
                 cache.put(request, response.clone());
                 return response;
             });

@@ -18,7 +18,7 @@
             if (!navigator.serviceWorker) {
                 return;
             }
-            return navigator.serviceWorker.register('/sw.js').then((registrationObject) => {
+            return navigator.serviceWorker.register('/sw.js').then(function(registrationObject) {
                 if (!navigator.serviceWorker.controller) {
                     return;
                 }
@@ -29,10 +29,10 @@
                     trackInstall(registrationObject.installing);
                     return;
                 }
-                registrationObject.addEventListener('updatefound', () => {
+                registrationObject.addEventListener('updatefound', function() {
                     trackInstall(registrationObject.installing);
                 });
-                navigator.serviceWorker.controller.addEventListener('controllerchange', () => {
+                navigator.serviceWorker.controller.addEventListener('controllerchange', function() {
                     window.location.reload();
                 });
 
@@ -42,7 +42,7 @@
         registerServiceWorker();/*.then(initialiseState);
 */
         function trackInstall(worker) {
-            worker.addEventListener('statechange', () => {
+            worker.addEventListener('statechange', function() {
                 if (worker.state == 'installed') {
                     update(worker);
                 }
@@ -59,7 +59,7 @@
             if (!navigator.serviceWorker) {
                 return Promise.resolve();
             }
-            return idb.open('universities', 1, (upgradeDb) => {
+            return idb.open('universities', 1, function(upgradeDb) {
                 var universitiesStore = upgradeDb.createObjectStore('universities', {
                     keyPath: 'University'
                 });
@@ -69,12 +69,12 @@
         function createUniversitiesIDB() {
             return $.ajax({
                 url: 'json/universities.json',
-                success: (data) => {
+                success: function(data) {
                     var universities = data;
-                    return $rootScope._dbPromise.then((db) => {
+                    return $rootScope._dbPromise.then(function(db) {
                         if (!db) return;
                         var universitiesStore = db.transaction('universities', 'readwrite').objectStore('universities');
-                        universities.forEach((university) => {
+                        universities.forEach(function(university) {
                             universitiesStore.put(university);
                         });
                     });
@@ -85,11 +85,11 @@
             getUniversitiesIDB();
         });
         function getUniversitiesIDB() {
-            return $rootScope._dbPromise.then((db) => {
+            return $rootScope._dbPromise.then(function(db) {
                 if (!db) return;
                 var store = db.transaction('universities').objectStore('universities');
-                return store.getAll().then((universities) => {
-                    universities.forEach((university) => {
+                return store.getAll().then(function(universities) {
+                    universities.forEach(function(university) {
                         $rootScope.offlineUniversities.push(university);
                     });
                 });

@@ -8,7 +8,7 @@ function loadScripts(urls, controller, failure) {
 
     if (urls.length == 0) return;
 
-    urls.forEach((url) => {
+    urls.forEach(function(url) {
         var script = document.createElement('script');
         script.onload = function() {
             if (errored) return;

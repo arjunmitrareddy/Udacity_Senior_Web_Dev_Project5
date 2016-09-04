@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
 fieldset .acctLegend {
   padding-left: 10%; }
-  fieldset .acctLegend span {
-    float: right;
-    margin-right: 10%; }
+
+fieldset .acctLegend span {
+  float: right;
+  margin-right: 10%; }
 
 .active {
   color: white;
@@ -26,10 +27,11 @@ fieldset .acctLegend {
   font-weight: normal;
   padding: 14px 0;
   border-color: #59B2E6 !important; }
-  .btn-login:hover, .btn-login:focus {
-    color: #fff;
-    background-color: #53A3CD;
-    border-color: #53A3CD !important; }
+
+.btn-login:hover, .btn-login:focus {
+  color: #fff;
+  background-color: #53A3CD;
+  border-color: #53A3CD !important; }
 
 .btn-register {
   background-color: #1CB94E;
@@ -40,10 +42,11 @@ fieldset .acctLegend {
   font-weight: normal;
   padding: 14px 0;
   border-color: #1CB94A !important; }
-  .btn-register:hover, .btn-register:focus {
-    color: #fff;
-    background-color: #1CA347;
-    border-color: #1CA347 !important; }
+
+.btn-register:hover, .btn-register:focus {
+  color: #fff;
+  background-color: #1CA347;
+  border-color: #1CA347 !important; }
 
 .btn.disabled, .btn[disabled] {
   border-color: white !important;
@@ -89,7 +92,6 @@ fieldset .acctLegend {
   font-family: 'codropsicons'; }
 
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .clearfix:before, .clearfix:after {
@@ -220,7 +222,6 @@ body #cdawrap {
   background: none;
   top: 50px;
   opacity: 0;
-  -webkit-transition: opacity 0.3s 1.2s;
   transition: opacity 0.3s 1.2s;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -317,7 +318,6 @@ body #cdawrap:hover #cda-remove {
   stroke: #ddd; }
 
 .ip-header .ip-loader svg path.ip-loader-circle {
-  -webkit-transition: stroke-dashoffset 0.2s;
   transition: stroke-dashoffset 0.2s;
   stroke: #1c9ccd; }
 
@@ -427,7 +427,8 @@ body #cdawrap:hover #cda-remove {
 
 .loaded .ip-logo {
   -webkit-transform-origin: 50% 0;
-  transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+      transform-origin: 50% 0;
   -webkit-animation: animLoadedLogo 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
   animation: animLoadedLogo 1s cubic-bezier(0.7, 0, 0.3, 1) forwards; }
 
@@ -457,7 +458,6 @@ body #cdawrap:hover #cda-remove {
 
 /* Change the color of the logo */
 .loaded .ip-logo svg path {
-  -webkit-transition: all 0.5s ease 0.3s;
   transition: all 0.5s ease 0.3s;
   fill: #fff; }
 
@@ -522,7 +522,8 @@ body #cdawrap:hover #cda-remove {
   height: 180px;
   opacity: 1;
   -webkit-transform: none;
-  transform: none; }
+  -ms-transform: none;
+      transform: none; }
 
 .no-js .ip-header .ip-logo svg path {
   fill: #fff; }
@@ -558,11 +559,15 @@ body #cdawrap:hover #cda-remove {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   transition: all 0.5s ease-in-out;
-  transform: translate(0px, -100%) scale(0, 0);
+  -webkit-transform: translate(0px, -100%) scale(0, 0);
+      -ms-transform: translate(0px, -100%) scale(0, 0);
+          transform: translate(0px, -100%) scale(0, 0);
   opacity: 0; }
 
 #search.open {
-  transform: translate(0px, 0px) scale(1, 1);
+  -webkit-transform: translate(0px, 0px) scale(1, 1);
+      -ms-transform: translate(0px, 0px) scale(1, 1);
+          transform: translate(0px, 0px) scale(1, 1);
   opacity: 1; }
 
 #search input[type="search"] {
