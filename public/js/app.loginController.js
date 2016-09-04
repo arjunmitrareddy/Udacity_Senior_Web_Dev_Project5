@@ -128,22 +128,15 @@
                                     message: 'Please Enter a Valid Email Address'
                                 }
                             }
-                        },
-                        password: {
-                            validators: {
-                                notEmpty: {
-                                    message: 'Please Enter Your Password'
-                                }
-                            }
                         }
                     }
                 }).on('error.field.bv', function(e, data) {
-                    if ($('#lemail').val() == '' || $('#lpassword').val() == '') {
+                    if ($('#lemail').val() == '') {
                         $('#lsubmit').prop("disabled",true);
                     }
                     data.bv.disableSubmitButtons(true);
                 }).on('status.field.bv', function(e, data) {
-                    if ($('#lemail').val() == '' || $('#lpassword').val() == '') {
+                    if ($('#lemail').val() == '') {
                         $('#lsubmit').prop("disabled",true);
                     }
                     else {

@@ -352,7 +352,8 @@ body #cdawrap:hover #cda-remove {
   padding: 3.5em;
   width: 33.3%;
   font-size: 0.7em;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-align: center; }
 
 .box p {
   font-family: 'Blokk', Arial, sans-serif; }
@@ -576,7 +577,7 @@ body #cdawrap:hover #cda-remove {
   border: 0;
   margin: 0 auto;
   margin-top: -51px;
-  padding-left: 30px;
+  padding-left: 0;
   padding-right: 30px;
   outline: none; }
 
